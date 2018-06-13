@@ -2,10 +2,10 @@ import pyrebase, datetime
 
 class fireClass():
     config = {
-        "apiKey": "AIzaSyDiE-DUEWcEV3PEt3hiB7C7cbp6Lm01Q68",
-        "authDomain": "timelapsesystem.firebaseapp.com",
-        "databaseURL": "https://timelapsesystem.firebaseio.com",
-        "storageBucket": "timelapsesystem.appspot.com"
+        "apiKey": "",
+        "authDomain": "",
+        "databaseURL": "",
+        "storageBucket": ""
         }
 
     firebase = pyrebase.initialize_app(config)
